@@ -1,0 +1,55 @@
+
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+  overflow: hidden;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: slategray;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.centered {
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.subtitle {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.topic {
+  text-align: center;
+}
+
+.welcome {
+  margin-bottom: 2em;
+}
+
+.work , .contact {
+  background-color: darkslategrey;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+.about {
+  background-color: white;
+  background-size: cover;
+  color: #000;
+  padding-bottom: 5rem;
+}
+
