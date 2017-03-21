@@ -20,6 +20,13 @@
   text-decoration: none;
 }
 
+footer {
+	background-color: #3e4859;
+	color: white;
+	padding-top: 20px;
+	text-align: center;
+}
+
 select {
   color: black;
 }
