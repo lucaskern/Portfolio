@@ -20,6 +20,14 @@
   text-decoration: none;
 }
 
+select {
+  color: black;
+}
+
+input {
+  color: black;
+}
+
 .centered {
   display: block;
     margin-left: auto;
