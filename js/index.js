@@ -1,10 +1,27 @@
-$(document).ready(function(){
+$(document).ready(function () {
   console.log("index.js ran");
+
+  $("#web, #interact, #fun").hide();
+
+
+  $(".webBtn").click(function () {
+
+    $("#interact, #fun").slideUp("slow");
+
+    $("#web").slideToggle("slow");
+  });
   
-  $("#web").hide();
+  $(".funBtn").click(function () {
+
+    $("#web, #interact").slideUp("slow");
+
+    $("#fun").slideToggle("slow");
+  });
   
-    $(".webBtn").click(function(){
-        //$("#web").show();
-        $("#web").slideDown("slow");
-    });
+  $(".interactBtn").click(function () {
+
+    $("#web, #fun").slideUp("slow");
+
+    $("#interact").slideToggle("slow");
+  });
 });

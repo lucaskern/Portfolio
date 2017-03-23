@@ -27,7 +27,7 @@
 }
 
 .nav a {
-  color: #985E6D;
+  color: black;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.3em;
@@ -35,7 +35,6 @@
 }
 
 .nav a:hover {
-  color: hotpink;
   transition: .3s;
 }
 
